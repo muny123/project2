@@ -1,0 +1,78 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: blue; */
+    animation-name: test;
+    animation-duration: 15s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+}
+li{
+    list-style: none;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+li:hover{
+    border-bottom: 2px solid palevioletred;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+@media screen and (min-width:720px){
+    ul{
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+    }
+}
+@keyframes test{
+    0%{
+        background-color: black;
+    }
+    20%{
+        background-color: red;
+    }
+    40%{
+        background-color: yellow;
+    }
+    60%{
+        background-color: green;
+    }
+    80%{
+        background-color: purple;
+    }
+    100%{
+        background-color: pink;
+    }
+}
+#animation{
+    background-color: plum;
+    color: white;
+    width: 15rem;
+    height: 5rem;
+    /* margin: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes animate{
+    10%{
+        margin-left: 1rem;
+        transform: skewX(5px);
+    }
+    50%{
+        margin-left: 2rem;
+        transform: skewX(10px);
+    }
+    0%{
+        margin-left: 3rem;
+        transform: skewX(20px);
+    }
+}
