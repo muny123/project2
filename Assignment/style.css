@@ -1,0 +1,35 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(210, 46%, 95%);
+    font-family: Manrope;
+}
+main{
+display: flex;
+width: 45rem;
+height: 30rem;
+margin: 5rem 18rem;
+}
+section{
+padding-left: 20px;
+background-color: white;
+width: 350px;
+height: 250px;
+}
+.contact{
+display: flex;
+padding-top: 15px;
+}
+span{
+
+padding-left: 15px;
+}
+p{
+font-size: 13px;
+opacity: 0.5;
+}
+.round{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+}
