@@ -123,6 +123,60 @@ isMan ? console.log("Yes, he is a man") :
 console.log("No, he is not a man");
 
 
+//symbol//
+const sym = Symbol();
+const newSym = ("Hi");
+console.log(sym)
+console.log(newSym)
+
+//concatenation
+const love ="i love";
+ const sentense = love +" " + " "+ day;
+ console.log(sentense)
+//  let isaman = 3
+//  isaman =5
+//  const you = 7;
+//  you = 9;
+
+const backticsen = `${love} ${day}`;
+console.log(backticsen);
+
+const myArray =  ["Ruqoyyah", "Marvelous", "Ameenah", "Munirah"]
+console.log(myArray);
+myArray[0] = "Salamat"
+console.log(myArray);
+   
+
+// math objects
+const four = 4;
+console.log(Math.sqrt(four));
+console.log(Math.pow(four,2));
+console.log(Math.PI);
+console.log(Math.random());
+console.log(Math.random()+1);
+console.log(Math.random()+1);
+console.log(Math.random()+1);
+console.log(Math.max(3,4,5,7,9,10));
+// console.log(Math.floor(Math.random()*10 + 1));
+
+let random = (Math.random()*10 + 1);
+const click= random<=10 ?random :10;
+console.log(click.toFixed(4));
+
+//math.ceil is for promotion
+//math.round it does the normal round up
+
+ // Windows operator
+
+  
+
+
+
+
+
+
+
+
 
 
 
