@@ -56,7 +56,7 @@ console.log(per);
 // to copy new objects
 const copyObject = Object.assign({},
     per);
- copyObject.state = "Kwara";
+  copyObject.state = "Kwara";
  copyObject.address = "13, GRA";
  console.log(copyObject);  
 
